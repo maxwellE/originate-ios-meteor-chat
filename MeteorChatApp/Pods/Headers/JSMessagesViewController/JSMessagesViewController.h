@@ -1,0 +1,1 @@
+../../JSMessagesViewController/JSMessagesTableViewController/JSMessagesViewController.h

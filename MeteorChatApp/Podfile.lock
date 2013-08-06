@@ -1,0 +1,25 @@
+PODS:
+  - JSMessagesViewController (2.0.2)
+  - ObjectiveDDP (0.0.21)
+  - SocketRocket (0.3.1-beta2)
+
+DEPENDENCIES:
+  - JSMessagesViewController (from `git@github.com:jessesquires/MessagesTableViewController.git`)
+  - ObjectiveDDP (from `git@github.com:boundsj/ObjectiveDDP.git`, branch `master`)
+  - SocketRocket (from `git@github.com:square/SocketRocket.git`)
+
+EXTERNAL SOURCES:
+  JSMessagesViewController:
+    :git: git@github.com:jessesquires/MessagesTableViewController.git
+  ObjectiveDDP:
+    :branch: master
+    :git: git@github.com:boundsj/ObjectiveDDP.git
+  SocketRocket:
+    :git: git@github.com:square/SocketRocket.git
+
+SPEC CHECKSUMS:
+  JSMessagesViewController: dd163bd1559b52a221ccdfbf47e1e4da6e3b1732
+  ObjectiveDDP: 923cf6a62aed54febb2d9c18e37a32087682bd37
+  SocketRocket: 9cbe08469513356cddc0afcab1ff160bd190296a
+
+COCOAPODS: 0.19.1

@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7CCFD417ACDCE900615B1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7CCFD317ACDCE900615B1F /* UIKit.framework */; };
+		0D7CCFD617ACDCE900615B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7CCFD517ACDCE900615B1F /* Foundation.framework */; };
+		0D7CCFD817ACDCE900615B1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7CCFD717ACDCE900615B1F /* CoreGraphics.framework */; };
+		0D7CCFDE17ACDCE900615B1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CCFDC17ACDCE900615B1F /* InfoPlist.strings */; };
+		0D7CCFE017ACDCE900615B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CCFDF17ACDCE900615B1F /* main.m */; };
+		0D7CCFE417ACDCEA00615B1F /* MeteorChatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CCFE317ACDCEA00615B1F /* MeteorChatAppDelegate.m */; };
+		0D7CCFE617ACDCEA00615B1F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CCFE517ACDCEA00615B1F /* Default.png */; };
+		0D7CCFE817ACDCEA00615B1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CCFE717ACDCEA00615B1F /* Default@2x.png */; };
+		0D7CCFEA17ACDCEA00615B1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CCFE917ACDCEA00615B1F /* Default-568h@2x.png */; };
+		0D7CCFED17ACDCEA00615B1F /* MeteorRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CCFEC17ACDCEA00615B1F /* MeteorRootViewController.m */; };
+		0D7CCFF017ACDCEA00615B1F /* MeteorRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CCFEE17ACDCEA00615B1F /* MeteorRootViewController.xib */; };
+		0D86C12F17AE174000CCA060 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D86C12E17AE174000CCA060 /* CoreData.framework */; };
+		0DD20C2017ACF194001C9C9C /* MeteorChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD20C1F17ACF194001C9C9C /* MeteorChatsViewController.m */; };
+		18DFCD48D87C427881C14491 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BD0D80B0044633AAB9B6CC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D7CCFD017ACDCE900615B1F /* MeteorChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7CCFD317ACDCE900615B1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D7CCFD517ACDCE900615B1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D7CCFD717ACDCE900615B1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D7CCFDB17ACDCE900615B1F /* MeteorChatApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeteorChatApp-Info.plist"; sourceTree = "<group>"; };
+		0D7CCFDD17ACDCE900615B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D7CCFDF17ACDCE900615B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D7CCFE117ACDCE900615B1F /* MeteorChatApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeteorChatApp-Prefix.pch"; sourceTree = "<group>"; };
+		0D7CCFE217ACDCE900615B1F /* MeteorChatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeteorChatAppDelegate.h; sourceTree = "<group>"; };
+		0D7CCFE317ACDCEA00615B1F /* MeteorChatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeteorChatAppDelegate.m; sourceTree = "<group>"; };
+		0D7CCFE517ACDCEA00615B1F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0D7CCFE717ACDCEA00615B1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0D7CCFE917ACDCEA00615B1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0D7CCFEB17ACDCEA00615B1F /* MeteorRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeteorRootViewController.h; sourceTree = "<group>"; };
+		0D7CCFEC17ACDCEA00615B1F /* MeteorRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeteorRootViewController.m; sourceTree = "<group>"; };
+		0D7CCFEF17ACDCEA00615B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MeteorRootViewController.xib; sourceTree = "<group>"; };
+		0D86C12E17AE174000CCA060 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0DD20C1E17ACF194001C9C9C /* MeteorChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeteorChatsViewController.h; sourceTree = "<group>"; };
+		0DD20C1F17ACF194001C9C9C /* MeteorChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeteorChatsViewController.m; sourceTree = "<group>"; };
+		C2D65AC028E34DF38E335DB1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D0BD0D80B0044633AAB9B6CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7CCFCD17ACDCE900615B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D86C12F17AE174000CCA060 /* CoreData.framework in Frameworks */,
+				0D7CCFD417ACDCE900615B1F /* UIKit.framework in Frameworks */,
+				0D7CCFD617ACDCE900615B1F /* Foundation.framework in Frameworks */,
+				0D7CCFD817ACDCE900615B1F /* CoreGraphics.framework in Frameworks */,
+				18DFCD48D87C427881C14491 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7CCFC717ACDCE900615B1F = {
+			isa = PBXGroup;
+			children = (
+				0D86C12E17AE174000CCA060 /* CoreData.framework */,
+				0D7CCFD917ACDCE900615B1F /* MeteorChatApp */,
+				0D7CCFD217ACDCE900615B1F /* Frameworks */,
+				0D7CCFD117ACDCE900615B1F /* Products */,
+				C2D65AC028E34DF38E335DB1 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0D7CCFD117ACDCE900615B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D7CCFD017ACDCE900615B1F /* MeteorChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D7CCFD217ACDCE900615B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7CCFD317ACDCE900615B1F /* UIKit.framework */,
+				0D7CCFD517ACDCE900615B1F /* Foundation.framework */,
+				0D7CCFD717ACDCE900615B1F /* CoreGraphics.framework */,
+				D0BD0D80B0044633AAB9B6CC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D7CCFD917ACDCE900615B1F /* MeteorChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				0D7CCFE217ACDCE900615B1F /* MeteorChatAppDelegate.h */,
+				0D7CCFE317ACDCEA00615B1F /* MeteorChatAppDelegate.m */,
+				0D7CCFEB17ACDCEA00615B1F /* MeteorRootViewController.h */,
+				0D7CCFEC17ACDCEA00615B1F /* MeteorRootViewController.m */,
+				0D7CCFEE17ACDCEA00615B1F /* MeteorRootViewController.xib */,
+				0DD20C1E17ACF194001C9C9C /* MeteorChatsViewController.h */,
+				0DD20C1F17ACF194001C9C9C /* MeteorChatsViewController.m */,
+				0D7CCFDA17ACDCE900615B1F /* Supporting Files */,
+			);
+			path = MeteorChatApp;
+			sourceTree = "<group>";
+		};
+		0D7CCFDA17ACDCE900615B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D7CCFDB17ACDCE900615B1F /* MeteorChatApp-Info.plist */,
+				0D7CCFDC17ACDCE900615B1F /* InfoPlist.strings */,
+				0D7CCFDF17ACDCE900615B1F /* main.m */,
+				0D7CCFE117ACDCE900615B1F /* MeteorChatApp-Prefix.pch */,
+				0D7CCFE517ACDCEA00615B1F /* Default.png */,
+				0D7CCFE717ACDCEA00615B1F /* Default@2x.png */,
+				0D7CCFE917ACDCEA00615B1F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D7CCFCF17ACDCE900615B1F /* MeteorChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7CCFF317ACDCEA00615B1F /* Build configuration list for PBXNativeTarget "MeteorChatApp" */;
+			buildPhases = (
+				3264F2AD6AD0479181D8A1AD /* Check Pods Manifest.lock */,
+				0D7CCFCC17ACDCE900615B1F /* Sources */,
+				0D7CCFCD17ACDCE900615B1F /* Frameworks */,
+				0D7CCFCE17ACDCE900615B1F /* Resources */,
+				D5695FB399E24B50A7108BFF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeteorChatApp;
+			productName = MeteorChatApp;
+			productReference = 0D7CCFD017ACDCE900615B1F /* MeteorChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D7CCFC817ACDCE900615B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MeteorChat;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Maxwell Elliott";
+			};
+			buildConfigurationList = 0D7CCFCB17ACDCE900615B1F /* Build configuration list for PBXProject "MeteorChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D7CCFC717ACDCE900615B1F;
+			productRefGroup = 0D7CCFD117ACDCE900615B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D7CCFCF17ACDCE900615B1F /* MeteorChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D7CCFCE17ACDCE900615B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7CCFDE17ACDCE900615B1F /* InfoPlist.strings in Resources */,
+				0D7CCFE617ACDCEA00615B1F /* Default.png in Resources */,
+				0D7CCFE817ACDCEA00615B1F /* Default@2x.png in Resources */,
+				0D7CCFEA17ACDCEA00615B1F /* Default-568h@2x.png in Resources */,
+				0D7CCFF017ACDCEA00615B1F /* MeteorRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3264F2AD6AD0479181D8A1AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		D5695FB399E24B50A7108BFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7CCFCC17ACDCE900615B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7CCFE017ACDCE900615B1F /* main.m in Sources */,
+				0D7CCFE417ACDCEA00615B1F /* MeteorChatAppDelegate.m in Sources */,
+				0D7CCFED17ACDCEA00615B1F /* MeteorRootViewController.m in Sources */,
+				0DD20C2017ACF194001C9C9C /* MeteorChatsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D7CCFDC17ACDCE900615B1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7CCFDD17ACDCE900615B1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D7CCFEE17ACDCEA00615B1F /* MeteorRootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7CCFEF17ACDCEA00615B1F /* en */,
+			);
+			name = MeteorRootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D7CCFF117ACDCEA00615B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D7CCFF217ACDCEA00615B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D7CCFF417ACDCEA00615B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D65AC028E34DF38E335DB1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeteorChatApp/MeteorChatApp-Prefix.pch";
+				INFOPLIST_FILE = "MeteorChatApp/MeteorChatApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D7CCFF517ACDCEA00615B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D65AC028E34DF38E335DB1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeteorChatApp/MeteorChatApp-Prefix.pch";
+				INFOPLIST_FILE = "MeteorChatApp/MeteorChatApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D7CCFCB17ACDCE900615B1F /* Build configuration list for PBXProject "MeteorChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7CCFF117ACDCEA00615B1F /* Debug */,
+				0D7CCFF217ACDCEA00615B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7CCFF317ACDCEA00615B1F /* Build configuration list for PBXNativeTarget "MeteorChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7CCFF417ACDCEA00615B1F /* Debug */,
+				0D7CCFF517ACDCEA00615B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D7CCFC817ACDCE900615B1F /* Project object */;
+}
