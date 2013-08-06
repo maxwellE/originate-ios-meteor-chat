@@ -12,21 +12,21 @@ Getting Started
 
 3. Enter the 'MeteorChatApp' directory and execute the following command:
 
-    $ pod install
+        $ pod install
 
-This will set up all dependencies for the iOS app.
+ This will set up all dependencies for the iOS app.
 
 4. Open the project with the following command:
 
-    $ open MeteorChatApp.xcworkspace
+        $ open MeteorChatApp.xcworkspace
 
-You need to use this command to open the project each time, otherwise the supporting libraries will not be loaded and the app will not build.  (This is a CocoaPods thing and is not specific to this application)
+ You need to use this command to open the project each time, otherwise the supporting libraries will not be loaded and the app will not build.  (This is a CocoaPods thing and is not specific to this application)
 
 5. Run the app on your phone or simulator.
 
 6. Open the web app hosted at http://meteorchat-originate.meteor.com/
 
-7. Chat away from either the iPhone simulator, see messages come up instantly on either side! You can now make roll your own WhatsApp or other mobile chat app! (Whens the IPO?)
+7. Chat away from either the iPhone simulator, see messages come up instantly on either side! You can now make roll your own WhatsApp or other mobile chat app! (When is the IPO?)
 
 Moving Forward
 -------------------
@@ -35,9 +35,9 @@ Moving Forward
 
 * If you desire you can host the app locally. To do so first [install MeteorJS](http://docs.meteor.com/#quickstart). Then open the 'iOSChat' directory and issue the following command:
 
-    $ meteor
+        $ meteor
 
-The app is now running at localhost:3000 .  You will need to change the URL used in the AppDelegate to reflect this new URL for the back end. 
+ The app is now running at localhost:3000 .  You will need to change the URL used in the AppDelegate to reflect this new URL for the back end. 
 
 * Try to write the Meteor app server with less code, you would surprise at least one person ;-)
 
