@@ -1,0 +1,17 @@
+/* CSS declarations go here */
+
+blockquote{
+  clear: both;
+}
+
+form{
+  clear: both;
+}
+
+div.container{
+  width: 39% !important;
+}
+
+#username_label{
+  clear: right;
+}

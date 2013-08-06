@@ -1,0 +1,53 @@
+<head>
+  <title>MeteorChat</title>
+</head>
+
+<body>
+  <div class='container'>
+      <h1>MeteorChat</h1>
+      {{> messages_count}}
+      <div class='messages_pane'>
+        {{> messages_view}}
+      </div>
+      {{> message_input}}
+  </div>
+</body>
+
+<template name='message_input'>
+    <div class="form-horizontal">
+      <div class="control-group">
+        <label id='username_label' class="control-label" for="username">Username</label>
+        <div class="controls">
+          <input type="text" id="username" placeholder="Username">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="body">Body</label>
+        <div class="controls">
+          <textarea rows='3' id='body' placeholder='Body....'></textarea>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="controls">
+          <button id='add_message' class="btn btn-primary btn-large btn-block">Send</button>
+        </div>
+      </div>
+    </div>
+</template>
+
+<template name="messages_view">
+    {{#each messages}}
+      {{#if my_message}}
+        <blockquote>
+      {{else}}
+        <blockquote class='pull-right'>
+      {{/if}}
+      <p>{{this.body}}</p>
+      <small><cite title="Source Title">{{this.author}}</cite></small>
+      </blockquote> 
+    {{/each}}
+</template>
+
+<template name='messages_count'>
+    <h3>{{count}} total messages</h3>
+</template>
